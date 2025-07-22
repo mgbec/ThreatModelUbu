@@ -1,0 +1,79 @@
+# Architectural Diagram Threat Analyzer Configuration
+
+# Diagram Parser Configuration
+diagram_parser:
+  # Supported file extensions
+  supported_extensions:
+    - .png
+    - .jpg
+    - .jpeg
+    - .svg
+    - .drawio
+    - .vsdx
+  
+  # Component detection settings
+  component_detection:
+    min_component_size: 50
+    max_component_size: 500
+    confidence_threshold: 0.7
+  
+  # Component type recognition
+  component_types:
+    - database
+    - server
+    - api
+    - gateway
+    - service
+    - storage
+    - network
+    - user
+    - container
+    - function
+    - queue
+
+# Threat Analyzer Configuration
+threat_analyzer:
+  # Path to threat rules
+  threat_rules_path: rules/threats.yaml
+  
+  # Risk assessment settings
+  risk_assessment:
+    impact_weights:
+      confidentiality: 0.3
+      integrity: 0.3
+      availability: 0.4
+    
+    likelihood_weights:
+      attack_complexity: 0.4
+      attack_vector: 0.3
+      privileges_required: 0.3
+  
+  # STRIDE categories
+  stride_categories:
+    - Spoofing
+    - Tampering
+    - Repudiation
+    - Information Disclosure
+    - Denial of Service
+    - Elevation of Privilege
+
+# Report Generator Configuration
+report_generator:
+  # Path to report templates
+  templates_path: templates
+  
+  # Default report format
+  default_format: pdf
+  
+  # Report content settings
+  include_mitigations: true
+  include_risk_matrix: true
+  include_executive_summary: true
+  
+  # Company information for reports
+  company_info:
+    name: "Your Company Name"
+    logo_path: "assets/logo.png"
+    
+  # Report customization
+  custom_css_path: "templates/custom.css"

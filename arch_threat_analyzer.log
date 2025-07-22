@@ -1,0 +1,349 @@
+2025-07-21 20:18:33,383 - arch_threat_analyzer.src.main - DEBUG - Verbose logging enabled
+2025-07-21 20:18:33,383 - arch_threat_analyzer.src.utils.config - DEBUG - Loading configuration from: config.yaml
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration validation successful
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration loaded successfully
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.main - DEBUG - Configuration loaded successfully
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.main - INFO - Processing diagram: test_data/test_diagram.svg
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.diagram_parser - DEBUG - DiagramParser initialized with supported formats: ['.png', '.jpg', '.jpeg', '.svg', '.drawio', '.vsdx']
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.diagram_parser - INFO - Parsing diagram: test_data/test_diagram.svg
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.diagram_parser - DEBUG - Parsing SVG diagram: test_data/test_diagram.svg
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.diagram_parser - INFO - Successfully parsed diagram with 2 components and 1 connections
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.main - INFO - Successfully parsed diagram: test_data/test_diagram.svg
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.threat_analyzer - DEBUG - ThreatAnalyzer initialized with 6 threat rules
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.threat_analyzer - INFO - Analyzing architecture: test_diagram.svg
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: Component 1 (Type: service)
+2025-07-21 20:18:33,388 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Unauthenticated API Access for component Component 1
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Denial of Service Vulnerability for component Component 1
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component Component 1
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: Component 2 (Type: database)
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insecure Data Storage for component Component 2
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component Component 2
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing connection from comp1 to comp2
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Unencrypted Data Transfer for connection conn1
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for connection conn1
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing overall architecture: test_diagram.svg
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for overall architecture
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Single Point of Failure for overall architecture
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.threat_analyzer - INFO - Analysis complete. Identified 9 potential threats
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.main - INFO - Identified 9 potential threats
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.report_generator - DEBUG - ReportGenerator initialized with supported formats: ['pdf', 'html', 'markdown', 'json']
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.report_generator - INFO - Generating markdown report for test_diagram.svg
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.report_generator - DEBUG - Generating Markdown report: test_data/output/test_diagram_threat_report.markdown
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.report_generator - DEBUG - Markdown report generated: test_data/output/test_diagram_threat_report.markdown
+2025-07-21 20:18:33,389 - arch_threat_analyzer.src.report_generator - INFO - Report generated successfully: test_data/output/test_diagram_threat_report.markdown
+2025-07-21 20:18:33,390 - arch_threat_analyzer.src.main - INFO - Report generated at: test_data/output/test_diagram_threat_report.markdown
+2025-07-21 21:08:08,359 - arch_threat_analyzer.src.main - DEBUG - Verbose logging enabled
+2025-07-21 21:08:08,359 - arch_threat_analyzer.src.utils.config - DEBUG - Loading configuration from: config.yaml
+2025-07-21 21:08:08,364 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration validation successful
+2025-07-21 21:08:08,364 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration loaded successfully
+2025-07-21 21:08:08,364 - arch_threat_analyzer.src.main - DEBUG - Configuration loaded successfully
+2025-07-21 21:08:08,364 - arch_threat_analyzer.src.main - INFO - Processing diagram: test_data/test_diagram.svg
+2025-07-21 21:08:08,364 - arch_threat_analyzer.src.diagram_parser - DEBUG - DiagramParser initialized with supported formats: ['.png', '.jpg', '.jpeg', '.svg', '.drawio', '.vsdx']
+2025-07-21 21:08:08,364 - arch_threat_analyzer.src.diagram_parser - INFO - Parsing diagram: test_data/test_diagram.svg
+2025-07-21 21:08:08,364 - arch_threat_analyzer.src.diagram_parser - DEBUG - Parsing SVG diagram: test_data/test_diagram.svg
+2025-07-21 21:08:08,364 - arch_threat_analyzer.src.diagram_parser - INFO - Successfully parsed diagram with 2 components and 1 connections
+2025-07-21 21:08:08,364 - arch_threat_analyzer.src.main - INFO - Successfully parsed diagram: test_data/test_diagram.svg
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - ThreatAnalyzer initialized with 6 threat rules
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - INFO - Analyzing architecture: test_diagram.svg
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: Component 1 (Type: service)
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Unauthenticated API Access for component Component 1
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Denial of Service Vulnerability for component Component 1
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component Component 1
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: Component 2 (Type: database)
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insecure Data Storage for component Component 2
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component Component 2
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing connection from comp1 to comp2
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Unencrypted Data Transfer for connection conn1
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for connection conn1
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing overall architecture: test_diagram.svg
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for overall architecture
+2025-07-21 21:08:08,365 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Single Point of Failure for overall architecture
+2025-07-21 21:08:08,366 - arch_threat_analyzer.src.threat_analyzer - INFO - Analysis complete. Identified 9 potential threats
+2025-07-21 21:08:08,366 - arch_threat_analyzer.src.main - INFO - Identified 9 potential threats
+2025-07-21 21:08:08,366 - arch_threat_analyzer.src.report_generator - DEBUG - ReportGenerator initialized with supported formats: ['pdf', 'html', 'markdown', 'json']
+2025-07-21 21:08:08,366 - arch_threat_analyzer.src.report_generator - INFO - Generating pdf report for test_diagram.svg
+2025-07-21 21:08:08,366 - arch_threat_analyzer.src.report_generator - DEBUG - Generating PDF report: test_data/output/test_diagram_threat_report.pdf
+2025-07-21 21:08:08,457 - arch_threat_analyzer.src.report_generator - ERROR - Error generating PDF report: "Style 'Title' already defined in stylesheet"
+Traceback (most recent call last):
+  File "/home/mom/Desktop/q_cli/arch_threat_analyzer/arch_threat_analyzer/src/report_generator.py", line 108, in _generate_pdf_report
+    styles.add(ParagraphStyle(
+  File "/home/mom/Desktop/simpleapp/venv/lib/python3.12/site-packages/reportlab/lib/styles.py", line 253, in add
+    raise KeyError("Style '%s' already defined in stylesheet" % key)
+KeyError: "Style 'Title' already defined in stylesheet"
+2025-07-21 21:08:08,457 - arch_threat_analyzer.src.report_generator - ERROR - Failed to generate report: Failed to generate PDF report: "Style 'Title' already defined in stylesheet"
+Traceback (most recent call last):
+  File "/home/mom/Desktop/q_cli/arch_threat_analyzer/arch_threat_analyzer/src/report_generator.py", line 108, in _generate_pdf_report
+    styles.add(ParagraphStyle(
+  File "/home/mom/Desktop/simpleapp/venv/lib/python3.12/site-packages/reportlab/lib/styles.py", line 253, in add
+    raise KeyError("Style '%s' already defined in stylesheet" % key)
+KeyError: "Style 'Title' already defined in stylesheet"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mom/Desktop/q_cli/arch_threat_analyzer/arch_threat_analyzer/src/report_generator.py", line 71, in generate
+    report_path = generator_func(architecture, threats, output_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mom/Desktop/q_cli/arch_threat_analyzer/arch_threat_analyzer/src/report_generator.py", line 337, in _generate_pdf_report
+    raise ReportGenerationError(f"Failed to generate PDF report: {str(e)}") from e
+arch_threat_analyzer.src.utils.exceptions.ReportGenerationError: Failed to generate PDF report: "Style 'Title' already defined in stylesheet"
+2025-07-21 21:08:08,458 - arch_threat_analyzer.src.main - ERROR - Failed to generate report: Failed to generate report: Failed to generate PDF report: "Style 'Title' already defined in stylesheet"
+2025-07-21 21:10:19,808 - arch_threat_analyzer.src.main - DEBUG - Verbose logging enabled
+2025-07-21 21:10:19,808 - arch_threat_analyzer.src.utils.config - DEBUG - Loading configuration from: config.yaml
+2025-07-21 21:10:19,813 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration validation successful
+2025-07-21 21:10:19,813 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration loaded successfully
+2025-07-21 21:10:19,813 - arch_threat_analyzer.src.main - DEBUG - Configuration loaded successfully
+2025-07-21 21:10:19,813 - arch_threat_analyzer.src.main - INFO - Processing diagram: test_data/test_diagram.svg
+2025-07-21 21:10:19,813 - arch_threat_analyzer.src.diagram_parser - DEBUG - DiagramParser initialized with supported formats: ['.png', '.jpg', '.jpeg', '.svg', '.drawio', '.vsdx']
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.diagram_parser - INFO - Parsing diagram: test_data/test_diagram.svg
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.diagram_parser - DEBUG - Parsing SVG diagram: test_data/test_diagram.svg
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.diagram_parser - INFO - Successfully parsed diagram with 2 components and 1 connections
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.main - INFO - Successfully parsed diagram: test_data/test_diagram.svg
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.threat_analyzer - DEBUG - ThreatAnalyzer initialized with 6 threat rules
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.threat_analyzer - INFO - Analyzing architecture: test_diagram.svg
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: Component 1 (Type: service)
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Unauthenticated API Access for component Component 1
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Denial of Service Vulnerability for component Component 1
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component Component 1
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: Component 2 (Type: database)
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insecure Data Storage for component Component 2
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component Component 2
+2025-07-21 21:10:19,814 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing connection from comp1 to comp2
+2025-07-21 21:10:19,815 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Unencrypted Data Transfer for connection conn1
+2025-07-21 21:10:19,815 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for connection conn1
+2025-07-21 21:10:19,815 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing overall architecture: test_diagram.svg
+2025-07-21 21:10:19,815 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for overall architecture
+2025-07-21 21:10:19,815 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Single Point of Failure for overall architecture
+2025-07-21 21:10:19,815 - arch_threat_analyzer.src.threat_analyzer - INFO - Analysis complete. Identified 9 potential threats
+2025-07-21 21:10:19,815 - arch_threat_analyzer.src.main - INFO - Identified 9 potential threats
+2025-07-21 21:10:19,815 - arch_threat_analyzer.src.report_generator - DEBUG - ReportGenerator initialized with supported formats: ['pdf', 'html', 'markdown', 'json']
+2025-07-21 21:10:19,815 - arch_threat_analyzer.src.report_generator - INFO - Generating pdf report for test_diagram.svg
+2025-07-21 21:10:19,815 - arch_threat_analyzer.src.report_generator - DEBUG - Generating PDF report: test_data/output/test_diagram_threat_report.pdf
+2025-07-21 21:10:19,936 - arch_threat_analyzer.src.report_generator - DEBUG - PDF report generated: test_data/output/test_diagram_threat_report.pdf
+2025-07-21 21:10:19,936 - arch_threat_analyzer.src.report_generator - INFO - Report generated successfully: test_data/output/test_diagram_threat_report.pdf
+2025-07-21 21:10:19,936 - arch_threat_analyzer.src.main - INFO - Report generated at: test_data/output/test_diagram_threat_report.pdf
+2025-07-22 11:31:14,900 - arch_threat_analyzer.src.main - DEBUG - Verbose logging enabled
+2025-07-22 11:31:14,900 - arch_threat_analyzer.src.utils.config - DEBUG - Loading configuration from: config.yaml
+2025-07-22 11:31:14,904 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration validation successful
+2025-07-22 11:31:14,904 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration loaded successfully
+2025-07-22 11:31:14,904 - arch_threat_analyzer.src.main - DEBUG - Configuration loaded successfully
+2025-07-22 11:31:14,905 - arch_threat_analyzer.src.main - INFO - Processing diagram: test_data/LotsOGateways.png
+2025-07-22 11:31:14,905 - arch_threat_analyzer.src.diagram_parser - DEBUG - DiagramParser initialized with supported formats: ['.png', '.jpg', '.jpeg', '.svg', '.drawio', '.vsdx']
+2025-07-22 11:31:14,905 - arch_threat_analyzer.src.diagram_parser - INFO - Parsing diagram: test_data/LotsOGateways.png
+2025-07-22 11:31:14,905 - arch_threat_analyzer.src.diagram_parser - DEBUG - Parsing image diagram: test_data/LotsOGateways.png
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.diagram_parser - INFO - Successfully parsed diagram with 2 components and 1 connections
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.main - INFO - Successfully parsed diagram: test_data/LotsOGateways.png
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - DEBUG - ThreatAnalyzer initialized with 6 threat rules
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - INFO - Analyzing architecture: LotsOGateways.png
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: Component 1 (Type: unknown)
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component Component 1
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: Component 2 (Type: unknown)
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component Component 2
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing connection from comp1 to comp2
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Unencrypted Data Transfer for connection conn1
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for connection conn1
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing overall architecture: LotsOGateways.png
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for overall architecture
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Single Point of Failure for overall architecture
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.threat_analyzer - INFO - Analysis complete. Identified 6 potential threats
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.main - INFO - Identified 6 potential threats
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.report_generator - DEBUG - ReportGenerator initialized with supported formats: ['pdf', 'html', 'markdown', 'json']
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.report_generator - INFO - Generating pdf report for LotsOGateways.png
+2025-07-22 11:31:14,923 - arch_threat_analyzer.src.report_generator - DEBUG - Generating PDF report: test_data/output/LotsOGateways_threat_report.pdf
+2025-07-22 11:31:15,033 - arch_threat_analyzer.src.report_generator - DEBUG - PDF report generated: test_data/output/LotsOGateways_threat_report.pdf
+2025-07-22 11:31:15,033 - arch_threat_analyzer.src.report_generator - INFO - Report generated successfully: test_data/output/LotsOGateways_threat_report.pdf
+2025-07-22 11:31:15,033 - arch_threat_analyzer.src.main - INFO - Report generated at: test_data/output/LotsOGateways_threat_report.pdf
+2025-07-22 11:40:09,170 - arch_threat_analyzer.src.main - DEBUG - Verbose logging enabled
+2025-07-22 11:40:09,170 - arch_threat_analyzer.src.utils.config - DEBUG - Loading configuration from: config.yaml
+2025-07-22 11:40:09,175 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration validation successful
+2025-07-22 11:40:09,175 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration loaded successfully
+2025-07-22 11:40:09,175 - arch_threat_analyzer.src.main - DEBUG - Configuration loaded successfully
+2025-07-22 11:40:09,175 - arch_threat_analyzer.src.main - INFO - Processing diagram: test_data/enhanced/test_diagram.png
+2025-07-22 11:40:09,175 - arch_threat_analyzer.src.diagram_parser - DEBUG - DiagramParser initialized with supported formats: ['.png', '.jpg', '.jpeg', '.svg', '.drawio', '.vsdx']
+2025-07-22 11:40:09,175 - arch_threat_analyzer.src.diagram_parser - INFO - Parsing diagram: test_data/enhanced/test_diagram.png
+2025-07-22 11:40:09,175 - arch_threat_analyzer.src.diagram_parser - DEBUG - Parsing image diagram: test_data/enhanced/test_diagram.png
+2025-07-22 11:40:09,192 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identifying components using advanced techniques
+2025-07-22 11:40:09,193 - arch_threat_analyzer.src.diagram_parser - DEBUG - Found 2 potential components after filtering
+2025-07-22 11:40:09,197 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identified 2 components
+2025-07-22 11:40:09,197 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identifying connections using advanced techniques
+2025-07-22 11:40:09,200 - arch_threat_analyzer.src.diagram_parser - DEBUG - No lines detected with Hough transform, trying distance-based approach
+2025-07-22 11:40:09,200 - arch_threat_analyzer.src.diagram_parser - INFO - Successfully parsed diagram with 2 components and 0 connections
+2025-07-22 11:40:09,200 - arch_threat_analyzer.src.main - INFO - Successfully parsed diagram: test_data/enhanced/test_diagram.png
+2025-07-22 11:40:09,200 - arch_threat_analyzer.src.threat_analyzer - DEBUG - ThreatAnalyzer initialized with 6 threat rules
+2025-07-22 11:40:09,200 - arch_threat_analyzer.src.threat_analyzer - INFO - Analyzing architecture: test_diagram.png
+2025-07-22 11:40:09,200 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: network 1 (Type: network)
+2025-07-22 11:40:09,200 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component network 1
+2025-07-22 11:40:09,200 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: network 2 (Type: network)
+2025-07-22 11:40:09,200 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component network 2
+2025-07-22 11:40:09,200 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing overall architecture: test_diagram.png
+2025-07-22 11:40:09,200 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for overall architecture
+2025-07-22 11:40:09,201 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Single Point of Failure for overall architecture
+2025-07-22 11:40:09,201 - arch_threat_analyzer.src.threat_analyzer - INFO - Analysis complete. Identified 4 potential threats
+2025-07-22 11:40:09,201 - arch_threat_analyzer.src.main - INFO - Identified 4 potential threats
+2025-07-22 11:40:09,201 - arch_threat_analyzer.src.report_generator - DEBUG - ReportGenerator initialized with supported formats: ['pdf', 'html', 'markdown', 'json']
+2025-07-22 11:40:09,201 - arch_threat_analyzer.src.report_generator - INFO - Generating pdf report for test_diagram.png
+2025-07-22 11:40:09,201 - arch_threat_analyzer.src.report_generator - DEBUG - Generating PDF report: test_data/enhanced/output/test_diagram_threat_report.pdf
+2025-07-22 11:40:09,304 - arch_threat_analyzer.src.report_generator - DEBUG - PDF report generated: test_data/enhanced/output/test_diagram_threat_report.pdf
+2025-07-22 11:40:09,304 - arch_threat_analyzer.src.report_generator - INFO - Report generated successfully: test_data/enhanced/output/test_diagram_threat_report.pdf
+2025-07-22 11:40:09,304 - arch_threat_analyzer.src.main - INFO - Report generated at: test_data/enhanced/output/test_diagram_threat_report.pdf
+2025-07-22 11:41:48,420 - arch_threat_analyzer.src.main - DEBUG - Verbose logging enabled
+2025-07-22 11:41:48,420 - arch_threat_analyzer.src.utils.config - DEBUG - Loading configuration from: config.yaml
+2025-07-22 11:41:48,425 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration validation successful
+2025-07-22 11:41:48,425 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration loaded successfully
+2025-07-22 11:41:48,425 - arch_threat_analyzer.src.main - DEBUG - Configuration loaded successfully
+2025-07-22 11:41:48,425 - arch_threat_analyzer.src.main - INFO - Processing diagram: test_data/enhanced/test_diagram.png
+2025-07-22 11:41:48,425 - arch_threat_analyzer.src.diagram_parser - DEBUG - DiagramParser initialized with supported formats: ['.png', '.jpg', '.jpeg', '.svg', '.drawio', '.vsdx']
+2025-07-22 11:41:48,426 - arch_threat_analyzer.src.diagram_parser - INFO - Parsing diagram: test_data/enhanced/test_diagram.png
+2025-07-22 11:41:48,426 - arch_threat_analyzer.src.diagram_parser - DEBUG - Parsing image diagram: test_data/enhanced/test_diagram.png
+2025-07-22 11:41:48,463 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identifying components using advanced techniques
+2025-07-22 11:41:48,465 - arch_threat_analyzer.src.diagram_parser - DEBUG - Min component area: 800.0, Max component area: 160000.0
+2025-07-22 11:41:48,465 - arch_threat_analyzer.src.diagram_parser - DEBUG - Found 2 potential components after filtering
+2025-07-22 11:41:48,475 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identified 2 components
+2025-07-22 11:41:48,475 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identifying connections using advanced techniques
+2025-07-22 11:41:48,482 - arch_threat_analyzer.src.diagram_parser - DEBUG - No connections identified from lines, using distance-based approach
+2025-07-22 11:41:48,482 - arch_threat_analyzer.src.diagram_parser - ERROR - Error parsing image diagram: name 'width' is not defined
+Traceback (most recent call last):
+  File "/home/mom/Desktop/q_cli/arch_threat_analyzer/arch_threat_analyzer/src/diagram_parser.py", line 123, in _parse_image
+    connections = self._identify_connections_advanced(image, closing, components)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mom/Desktop/q_cli/arch_threat_analyzer/arch_threat_analyzer/src/diagram_parser.py", line 475, in _identify_connections_advanced
+    connections = self._identify_connections_by_distance(components)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mom/Desktop/q_cli/arch_threat_analyzer/arch_threat_analyzer/src/diagram_parser.py", line 507, in _identify_connections_by_distance
+    max_distance = min(width, height) * 0.4  # 40% of the smaller dimension
+                       ^^^^^
+NameError: name 'width' is not defined
+2025-07-22 11:41:48,484 - arch_threat_analyzer.src.diagram_parser - ERROR - Failed to parse diagram: Failed to parse image diagram: name 'width' is not defined
+Traceback (most recent call last):
+  File "/home/mom/Desktop/q_cli/arch_threat_analyzer/arch_threat_analyzer/src/diagram_parser.py", line 123, in _parse_image
+    connections = self._identify_connections_advanced(image, closing, components)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mom/Desktop/q_cli/arch_threat_analyzer/arch_threat_analyzer/src/diagram_parser.py", line 475, in _identify_connections_advanced
+    connections = self._identify_connections_by_distance(components)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mom/Desktop/q_cli/arch_threat_analyzer/arch_threat_analyzer/src/diagram_parser.py", line 507, in _identify_connections_by_distance
+    max_distance = min(width, height) * 0.4  # 40% of the smaller dimension
+                       ^^^^^
+NameError: name 'width' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mom/Desktop/q_cli/arch_threat_analyzer/arch_threat_analyzer/src/diagram_parser.py", line 75, in parse
+    architecture = parser_func(diagram_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mom/Desktop/q_cli/arch_threat_analyzer/arch_threat_analyzer/src/diagram_parser.py", line 137, in _parse_image
+    raise DiagramParsingError(f"Failed to parse image diagram: {str(e)}") from e
+arch_threat_analyzer.src.utils.exceptions.DiagramParsingError: Failed to parse image diagram: name 'width' is not defined
+2025-07-22 11:41:48,486 - arch_threat_analyzer.src.main - ERROR - Failed to parse diagram: Failed to parse diagram: Failed to parse image diagram: name 'width' is not defined
+2025-07-22 11:42:53,667 - arch_threat_analyzer.src.main - DEBUG - Verbose logging enabled
+2025-07-22 11:42:53,668 - arch_threat_analyzer.src.utils.config - DEBUG - Loading configuration from: config.yaml
+2025-07-22 11:42:53,672 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration validation successful
+2025-07-22 11:42:53,673 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration loaded successfully
+2025-07-22 11:42:53,673 - arch_threat_analyzer.src.main - DEBUG - Configuration loaded successfully
+2025-07-22 11:42:53,673 - arch_threat_analyzer.src.main - INFO - Processing diagram: test_data/enhanced/test_diagram.png
+2025-07-22 11:42:53,673 - arch_threat_analyzer.src.diagram_parser - DEBUG - DiagramParser initialized with supported formats: ['.png', '.jpg', '.jpeg', '.svg', '.drawio', '.vsdx']
+2025-07-22 11:42:53,673 - arch_threat_analyzer.src.diagram_parser - INFO - Parsing diagram: test_data/enhanced/test_diagram.png
+2025-07-22 11:42:53,673 - arch_threat_analyzer.src.diagram_parser - DEBUG - Parsing image diagram: test_data/enhanced/test_diagram.png
+2025-07-22 11:42:53,691 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identifying components using advanced techniques
+2025-07-22 11:42:53,692 - arch_threat_analyzer.src.diagram_parser - DEBUG - Min component area: 800.0, Max component area: 160000.0
+2025-07-22 11:42:53,692 - arch_threat_analyzer.src.diagram_parser - DEBUG - Found 2 potential components after filtering
+2025-07-22 11:42:53,696 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identified 2 components
+2025-07-22 11:42:53,696 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identifying connections using advanced techniques
+2025-07-22 11:42:53,714 - arch_threat_analyzer.src.diagram_parser - DEBUG - No connections identified from lines, using distance-based approach
+2025-07-22 11:42:53,714 - arch_threat_analyzer.src.diagram_parser - DEBUG - Using max distance threshold for connections: 1698
+2025-07-22 11:42:53,714 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identified 1 connections
+2025-07-22 11:42:53,715 - arch_threat_analyzer.src.diagram_parser - INFO - Successfully parsed diagram with 2 components and 1 connections
+2025-07-22 11:42:53,715 - arch_threat_analyzer.src.main - INFO - Successfully parsed diagram: test_data/enhanced/test_diagram.png
+2025-07-22 11:42:53,715 - arch_threat_analyzer.src.threat_analyzer - DEBUG - ThreatAnalyzer initialized with 6 threat rules
+2025-07-22 11:42:53,715 - arch_threat_analyzer.src.threat_analyzer - INFO - Analyzing architecture: test_diagram.png
+2025-07-22 11:42:53,715 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: network 1 (Type: network)
+2025-07-22 11:42:53,716 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component network 1
+2025-07-22 11:42:53,716 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: network 2 (Type: network)
+2025-07-22 11:42:53,716 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component network 2
+2025-07-22 11:42:53,716 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing connection from comp1 to comp2
+2025-07-22 11:42:53,716 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Unencrypted Data Transfer for connection conn1
+2025-07-22 11:42:53,716 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for connection conn1
+2025-07-22 11:42:53,716 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing overall architecture: test_diagram.png
+2025-07-22 11:42:53,717 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for overall architecture
+2025-07-22 11:42:53,717 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Single Point of Failure for overall architecture
+2025-07-22 11:42:53,717 - arch_threat_analyzer.src.threat_analyzer - INFO - Analysis complete. Identified 6 potential threats
+2025-07-22 11:42:53,717 - arch_threat_analyzer.src.main - INFO - Identified 6 potential threats
+2025-07-22 11:42:53,718 - arch_threat_analyzer.src.report_generator - DEBUG - ReportGenerator initialized with supported formats: ['pdf', 'html', 'markdown', 'json']
+2025-07-22 11:42:53,718 - arch_threat_analyzer.src.report_generator - INFO - Generating pdf report for test_diagram.png
+2025-07-22 11:42:53,718 - arch_threat_analyzer.src.report_generator - DEBUG - Generating PDF report: test_data/enhanced/output/test_diagram_threat_report.pdf
+2025-07-22 11:42:53,854 - arch_threat_analyzer.src.report_generator - DEBUG - PDF report generated: test_data/enhanced/output/test_diagram_threat_report.pdf
+2025-07-22 11:42:53,854 - arch_threat_analyzer.src.report_generator - INFO - Report generated successfully: test_data/enhanced/output/test_diagram_threat_report.pdf
+2025-07-22 11:42:53,854 - arch_threat_analyzer.src.main - INFO - Report generated at: test_data/enhanced/output/test_diagram_threat_report.pdf
+2025-07-22 11:45:52,560 - arch_threat_analyzer.src.main - DEBUG - Verbose logging enabled
+2025-07-22 11:45:52,560 - arch_threat_analyzer.src.utils.config - DEBUG - Loading configuration from: config.yaml
+2025-07-22 11:45:52,564 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration validation successful
+2025-07-22 11:45:52,564 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration loaded successfully
+2025-07-22 11:45:52,564 - arch_threat_analyzer.src.main - DEBUG - Configuration loaded successfully
+2025-07-22 11:45:52,564 - arch_threat_analyzer.src.main - INFO - Processing diagram: test_data/enhanced/complex_diagram.png
+2025-07-22 11:45:52,564 - arch_threat_analyzer.src.diagram_parser - DEBUG - DiagramParser initialized with supported formats: ['.png', '.jpg', '.jpeg', '.svg', '.drawio', '.vsdx']
+2025-07-22 11:45:52,564 - arch_threat_analyzer.src.diagram_parser - INFO - Parsing diagram: test_data/enhanced/complex_diagram.png
+2025-07-22 11:45:52,564 - arch_threat_analyzer.src.diagram_parser - DEBUG - Parsing image diagram: test_data/enhanced/complex_diagram.png
+2025-07-22 11:45:52,583 - arch_threat_analyzer.src.diagram_parser - DEBUG - Saved preprocessed image for debugging: test_data/enhanced/debug_preprocessed.png
+2025-07-22 11:45:52,583 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identifying components using advanced techniques
+2025-07-22 11:45:52,584 - arch_threat_analyzer.src.diagram_parser - DEBUG - Min component area: 1080.0, Max component area: 216000.0
+2025-07-22 11:45:52,584 - arch_threat_analyzer.src.diagram_parser - DEBUG - Found 2 potential components after filtering
+2025-07-22 11:45:52,592 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identified 2 components
+2025-07-22 11:45:52,592 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identifying connections using advanced techniques
+2025-07-22 11:45:52,595 - arch_threat_analyzer.src.diagram_parser - DEBUG - No lines detected with Hough transform, trying distance-based approach
+2025-07-22 11:45:52,595 - arch_threat_analyzer.src.diagram_parser - DEBUG - Using max distance threshold for connections: 2346
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.diagram_parser - INFO - Successfully parsed diagram with 2 components and 1 connections
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.main - INFO - Successfully parsed diagram: test_data/enhanced/complex_diagram.png
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - DEBUG - ThreatAnalyzer initialized with 6 threat rules
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - INFO - Analyzing architecture: complex_diagram.png
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: network 1 (Type: network)
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component network 1
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: network 2 (Type: network)
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component network 2
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing connection from comp1 to comp2
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Unencrypted Data Transfer for connection conn1
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for connection conn1
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing overall architecture: complex_diagram.png
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for overall architecture
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Single Point of Failure for overall architecture
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.threat_analyzer - INFO - Analysis complete. Identified 6 potential threats
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.main - INFO - Identified 6 potential threats
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.report_generator - DEBUG - ReportGenerator initialized with supported formats: ['pdf', 'html', 'markdown', 'json']
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.report_generator - INFO - Generating pdf report for complex_diagram.png
+2025-07-22 11:45:52,596 - arch_threat_analyzer.src.report_generator - DEBUG - Generating PDF report: test_data/enhanced/output/complex_diagram_threat_report.pdf
+2025-07-22 11:45:52,707 - arch_threat_analyzer.src.report_generator - DEBUG - PDF report generated: test_data/enhanced/output/complex_diagram_threat_report.pdf
+2025-07-22 11:45:52,708 - arch_threat_analyzer.src.report_generator - INFO - Report generated successfully: test_data/enhanced/output/complex_diagram_threat_report.pdf
+2025-07-22 11:45:52,708 - arch_threat_analyzer.src.main - INFO - Report generated at: test_data/enhanced/output/complex_diagram_threat_report.pdf
+2025-07-22 11:54:47,750 - arch_threat_analyzer.src.main - DEBUG - Verbose logging enabled
+2025-07-22 11:54:47,750 - arch_threat_analyzer.src.utils.config - DEBUG - Loading configuration from: config.yaml
+2025-07-22 11:54:47,755 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration validation successful
+2025-07-22 11:54:47,755 - arch_threat_analyzer.src.utils.config - DEBUG - Configuration loaded successfully
+2025-07-22 11:54:47,755 - arch_threat_analyzer.src.main - DEBUG - Configuration loaded successfully
+2025-07-22 11:54:47,756 - arch_threat_analyzer.src.main - INFO - Processing diagram: test_data/LotsOGateways.png
+2025-07-22 11:54:47,756 - arch_threat_analyzer.src.diagram_parser - DEBUG - DiagramParser initialized with supported formats: ['.png', '.jpg', '.jpeg', '.svg', '.drawio', '.vsdx']
+2025-07-22 11:54:47,756 - arch_threat_analyzer.src.diagram_parser - INFO - Parsing diagram: test_data/LotsOGateways.png
+2025-07-22 11:54:47,756 - arch_threat_analyzer.src.diagram_parser - DEBUG - Parsing image diagram: test_data/LotsOGateways.png
+2025-07-22 11:54:47,782 - arch_threat_analyzer.src.diagram_parser - DEBUG - Saved preprocessed image for debugging: test_data/debug_preprocessed.png
+2025-07-22 11:54:47,782 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identifying components using advanced techniques
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.diagram_parser - DEBUG - Min component area: 743.484, Max component area: 148696.80000000002
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.diagram_parser - DEBUG - Found 1 potential components after filtering
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identified 1 components
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.diagram_parser - DEBUG - Identifying connections using advanced techniques
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.diagram_parser - DEBUG - Not enough components to identify connections
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.diagram_parser - INFO - Successfully parsed diagram with 1 components and 0 connections
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.main - INFO - Successfully parsed diagram: test_data/LotsOGateways.png
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.threat_analyzer - DEBUG - ThreatAnalyzer initialized with 6 threat rules
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.threat_analyzer - INFO - Analyzing architecture: LotsOGateways.png
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing component: network 1 (Type: network)
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for component network 1
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Analyzing overall architecture: LotsOGateways.png
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Insufficient Logging for overall architecture
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.threat_analyzer - DEBUG - Identified threat: Single Point of Failure for overall architecture
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.threat_analyzer - INFO - Analysis complete. Identified 3 potential threats
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.main - INFO - Identified 3 potential threats
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.report_generator - DEBUG - ReportGenerator initialized with supported formats: ['pdf', 'html', 'markdown', 'json']
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.report_generator - INFO - Generating pdf report for LotsOGateways.png
+2025-07-22 11:54:47,783 - arch_threat_analyzer.src.report_generator - DEBUG - Generating PDF report: test_data/output/LotsOGateways_threat_report.pdf
+2025-07-22 11:54:47,884 - arch_threat_analyzer.src.report_generator - DEBUG - PDF report generated: test_data/output/LotsOGateways_threat_report.pdf
+2025-07-22 11:54:47,884 - arch_threat_analyzer.src.report_generator - INFO - Report generated successfully: test_data/output/LotsOGateways_threat_report.pdf
+2025-07-22 11:54:47,884 - arch_threat_analyzer.src.main - INFO - Report generated at: test_data/output/LotsOGateways_threat_report.pdf

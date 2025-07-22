@@ -1,0 +1,2 @@
+[console_scripts]
+arch-threat-analyzer = arch_threat_analyzer.src.main:main
